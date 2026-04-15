@@ -37,14 +37,16 @@ product-app/
 ├── main.go             # Uygulama giriş noktası
 └── go.mod              # Bağımlılık yönetimi
 
-🛠️ Başlangıç
+```
+
+## 🛠️ Başlangıç
 1. Veritabanını Ayağa Kaldırma (Docker)
 Proje içinde bulunan bash script'i ile PostgreSQL konteynırını ve gerekli tabloları otomatik olarak oluşturabilirsiniz:
 
 Bash
 bash test/scripts/test_db.sh
 
-2. Uygulamayı Çalıştırma
+## 2. Uygulamayı Çalıştırma
 Bağımlılıkları yükleyin ve sunucuyu başlatın:
 
 Bash
