@@ -42,15 +42,15 @@ product-app/
 ## 🛠️ Başlangıç
 1. Veritabanını Ayağa Kaldırma (Docker)
 Proje içinde bulunan bash script'i ile PostgreSQL konteynırını ve gerekli tabloları otomatik olarak oluşturabilirsiniz:
-
+```text
 Bash
 bash test/scripts/test_db.sh
-
+```
 ## 2. Uygulamayı Çalıştırma
 Bağımlılıkları yükleyin ve sunucuyu başlatın:
-
+```text
 Bash
 go mod tidy
 go run main.go
-
+```
 Sunucu varsayılan olarak http://localhost:8080 adresinde çalışmaya başlayacaktır.
