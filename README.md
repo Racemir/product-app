@@ -1,4 +1,3 @@
-# product-app
 # Product Management API
 
 Bu proje, **Go (Golang)** ve **Echo framework** kullanılarak geliştirilmiş, katmanlı mimariye (Layered Architecture) sahip bir ürün yönetim API'sidir. Proje, veritabanı olarak **PostgreSQL** kullanır ve geliştirme süreçlerini hızlandırmak için **Docker** ile entegre çalışır.
@@ -43,13 +42,11 @@ product-app/
 1. Veritabanını Ayağa Kaldırma (Docker)
 Proje içinde bulunan bash script'i ile PostgreSQL konteynırını ve gerekli tabloları otomatik olarak oluşturabilirsiniz:
 ```text
-Bash
 bash test/scripts/test_db.sh
 ```
 ## 2. Uygulamayı Çalıştırma
 Bağımlılıkları yükleyin ve sunucuyu başlatın:
 ```text
-Bash
 go mod tidy
 go run main.go
 ```
